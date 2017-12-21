@@ -44,7 +44,9 @@
 
 ## Commit/Edit/Stage files
 
-	git add --all
+	git add --all 				// Staged
 
-	git commit --all -m "message"
-	git push --all
+	git commit --all -m "message"		// Unmodified + Edit
+	git push --all				// Staged
+
+	git status
