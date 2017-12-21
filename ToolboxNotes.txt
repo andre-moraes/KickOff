@@ -44,5 +44,4 @@
 
 ## Commit/Edit/Stage files
 
-	git commit -a
-	git push --all
+	git commit --all -m "message"
