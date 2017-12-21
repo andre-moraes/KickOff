@@ -41,3 +41,8 @@
 
 	git add *.*
 	git commit -m 'initial project version'
+
+## Commit/Edit/Stage files
+
+	git commit -a
+	git push --all
