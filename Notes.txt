@@ -1,0 +1,52 @@
+##Command Line Interface
+
+	pwd 			--> path directory
+	clear 			--> clear command line
+	ls 			--> list files -a hidden/unhidden -l details
+	cd <directory> 		--> change directory cd root directory cd.. one directory up
+	type <file name> 	--> create a file
+	cp 			--> copy files -r recursive
+	rm 			--> remove files -r recursive
+	mv 			--> move files -r recursive
+	echo 			--> print on scree
+	date 			--> print date
+
+##Git Bash
+
+	cd OneDrive/Projects/GIT
+	git config --global user.name "andre-moraes"
+	git config --global user.email "andre.moraes@ymail.com"
+	git config --list
+	git init
+	git remote add origin https://github.com/andre-moraes/kickoff.git
+	git clone https://github.com/andre-moraes/kickoff.git
+	clear
+	exit
+	
+##Git Commands
+
+	git add .
+	git add -u
+	git add -A
+	git commit -m "message"
+	git push
+	git checkout -b branchname
+	git branch
+	git checkout master
+
+	git help <verb>
+	man git-<verb>
+	git help config
+	git <verb> -h
+
+	git add *.*
+	git commit -m 'initial project version'
+
+## Commit/Edit/Stage files
+
+	git add --all 				// Staged
+
+	git commit --all -m "message"		// Unmodified + Edit
+	git push --all				// Staged
+
+	git status
