@@ -18,8 +18,10 @@
 	git config --global user.email "andre.moraes@ymail.com"
 	git config --list
 	git init
-	git remote add origin https://github.com/andre-moraes/kickoff.git
-	git clone https://github.com/andre-moraes/kickoff.git
+	git remote add name https://github.com/andre-moraes/kickoff.git		// Add a remote repository
+	git fetch name
+	git clone https://github.com/andre-moraes/kickoff.git			// Make a project clone 
+	git remote -v
 	clear
 	exit
 	
