@@ -58,3 +58,6 @@
 	git diff
 	git diff --staged
 	git diff --cached
+	
+	git remote rename pb paul
+	git remote remove paul
