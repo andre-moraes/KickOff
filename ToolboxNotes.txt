@@ -48,12 +48,9 @@
 
 	git push --all  		// work --> Staged
 	git push name master
-	
 	git add --all     		// work --> Staged
-	
-	git pull --all       		// work <-- Staged
-	
-	git commit --all -m "message"  	// Unmodified + Edit
+	git pull --all       		// work <-- Repository
+	git commit --all -m "message"  	// Unmodified + Edit. Staged --> Repository
 	
 	git status
 	git status -s
