@@ -48,6 +48,8 @@
 
 	git push --all  		// work <-- Staged
 	git add --all     		// work --> Staged
+	
+	git pull --all       		// work --> Staged
 	git commit --all -m "message"  	// Unmodified + Edit
 	
 	git status
