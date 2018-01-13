@@ -77,8 +77,8 @@
 	git push								// Update all commited files to the Project Origin
 	git push --all								// Update all files to the Project Origin
 
-	git branch
-
+	git branch name								// Create a new brench
+	git checkout testing							// Change from brenches
 
 ## Commit/Edit/Stage files
 
