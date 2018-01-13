@@ -33,11 +33,8 @@
 	git remote add name https://github.com/andre-moraes/kickoff.git		// Add a different remote repository
 	git remote rename pb paul						// Rename a local repository
 	git remote remove paul							// Remove a local repository
-<<<<<<< HEAD
 	git remote show								// Present local repository name
 	git remote show	name							// Present local repository information
-=======
->>>>>>> b40e71f1d80354c5e8ef7c4c74a34946d382baad
 	git fetch name								// Get files from repository name
 	git pull								// Get files from remote branch
 
