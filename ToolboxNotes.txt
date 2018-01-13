@@ -1,4 +1,4 @@
-##Command Line Interface
+﻿##Command Line Interface
 
 	pwd 			--> path directory
 	clear 			--> clear command line
@@ -9,6 +9,7 @@
 	rm 			--> remove files -r recursive
 	mv 			--> move files -r recursive
 	echo 			--> print on scree
+	echo 'My learning Project' Project.txt
 	date 			--> print date
 
 ##Git Bash
@@ -18,20 +19,34 @@
 	git config --global user.email "andre.moraes@ymail.com"
 	git config --list
 	git init
-	git remote add name https://github.com/andre-moraes/kickoff.git		// Add a remote repository
-	git fetch name
 	git clone https://github.com/andre-moraes/kickoff.git			// Make a project clone 
-	git remote -v
 	clear
 	exit
+
+	git remote -v
+	git fetch name
+	git remote add name https://github.com/andre-moraes/kickoff.git		// Add a remote repository
 	
 ##Git Commands
 
-	git add .
+	git add .			// Stage all files
+	git add --all 			// Stage all files
 	git add -u
 	git add -A
+
+	git status			// Files status
+	git status -s
+
+	git diff			// Files changes and not staged
+	git diff --staged		// Files changed and ready for next committment
+	git diff --cached		// Files changed and staged so far
+
 	git commit -m "message"
+	git commit --all -m "message"	// Commit all files
+
 	git push
+	git push --all			// Staged
+
 	git checkout -b branchname
 	git branch
 	git checkout master
@@ -41,9 +56,6 @@
 	git help config
 	git <verb> -h
 
-	git add *.*
-	git commit -m 'initial project version'
-
 ## Commit/Edit/Stage files
 
 	git push --all  		// work --> Staged
@@ -52,12 +64,7 @@
 	git pull --all       		// work <-- Repository
 	git commit --all -m "message"  	// Unmodified + Edit. Staged --> Repository
 	
-	git status
-	git status -s
 
-	git diff
-	git diff --staged
-	git diff --cached
 	
 	git remote rename pb paul
 	git remote remove paul
