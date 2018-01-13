@@ -8,7 +8,7 @@
 	cp 			--> copy files -r recursive
 	rm 			--> remove files -r recursive
 	mv 			--> move files -r recursive
-	echo 			--> print on scree
+	echo 			--> print on screen
 	echo 'My learning Project' Project.txt
 	date 			--> print date
 
@@ -23,10 +23,11 @@
 	clear
 	exit
 
-	git remote -v
-	git fetch name
+	git remote 								// Show remote repository data
+	git remote -v								// Show repository URL address
 	git remote add name https://github.com/andre-moraes/kickoff.git		// Add a remote repository
-	
+	git fetch name
+
 ##Git Commands
 
 	git add .			// Stage all files
@@ -51,18 +52,18 @@
 	git rm --cached file		// Remove file from stage but keep in the Project
 	git mv file_from file_to	// Move files or rename them
 	git checkout -- file		// Restore previous version of file
+	git checkout -b branchname
+	git checkout master
 
 	git log				// Commit history 
 	git log	-p			// Commit history and differences betwen commits
 	git log	--stat			// Commit history and statistics
 	git log	--pretty=oneline	// Commit history presented on a predefined format
 
-	git push
-	git push --all			// Staged
+	git push			// Update all commited files to the Project Origin
+	git push --all			// Update all files to the Project Origin
 
-	git checkout -b branchname
 	git branch
-	git checkout master
 
 	git help <verb>
 	man git-<verb>
