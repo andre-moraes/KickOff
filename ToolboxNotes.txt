@@ -79,11 +79,8 @@
 	git branch name								// Create a new brench called name
 	git checkout -b branchname						// Create and checkout to a new brench
 	git checkout master							// Change to brench called master
-<<<<<<< HEAD
 	git merge master							// Merge changes made on brench master
 	git branch -d name							// Delete brench name
-=======
->>>>>>> b8e80b07daf47f48230b0be5670c3821f43a5659
 
 ## Commit/Edit/Stage files
 
