@@ -1,16 +1,16 @@
 ﻿##Command Line Interface
 
-	pwd 					--> path directory
-	clear 					--> clear command line
-	ls 					--> list files -a hidden/unhidden -l details
-	cd <directory> 				--> change directory cd root directory cd.. one directory up
-	type <file name> 			--> create a file
-	cp 					--> copy files -r recursive
-	rm 					--> remove files -r recursive
-	mv 					--> move files -r recursive
-	echo 					--> print on screen
+	pwd 								--> path directory
+	clear 								--> clear command line
+	ls 								--> list files -a hidden/unhidden -l details
+	cd <directory> 							--> change directory cd root directory cd.. one directory up
+	type <file name> 						--> create a file
+	cp 								--> copy files -r recursive
+	rm 								--> remove files -r recursive
+	mv 								--> move files -r recursive
+	echo 								--> print on screen
 	echo 'My learning Project' Project.txt
-	date 					--> print date
+	date 								--> print date
 
 ##Git Commands
 
@@ -19,7 +19,7 @@
 	git config --global user.email "andre.moraes@ymail.com"
 	git config --list
 	git init
-	git clone https://github.com/andre-moraes/kickoff.git			// Make a project clone 
+	git clone https://github.com/andre-moraes/kickoff.git		// Make a project clone 
 	clear
 	exit
 
@@ -28,66 +28,63 @@
 	git help config
 	git <verb> -h
 
-	git tag -a v1.4								// Create an annotated tag
-	git tag v1.4-lw								// Create an light weight tag
-	git tag									// Show project tags
-	git show v1.4								// Show version tag information
-	git push origin <tagname>						// Upload tag information
+	git tag -a v1.4							// Create an annotated tag
+	git tag v1.4-lw							// Create an light weight tag
+	git tag								// Show project tags
+	git show v1.4							// Show version tag information
+	git push origin <tagname>					// Upload tag information
 
-	git remote 								// Show remote repository data
-	git remote -v								// Show repository URL address
-	git remote add name https://github.com/andre-moraes/kickoff.git		// Add a different remote repository
-	git remote rename pb paul						// Rename a local repository
-	git remote remove paul							// Remove a local repository
-	git remote show								// Present local repository name
-	git remote show	name							// Present local repository information
-	git fetch name								// Get files from repository name
-	git pull								// Get files from remote branch
+	git remote 							// Show remote repository data
+	git remote -v							// Show repository URL address
+	git remote add name https://github.com/andre-moraes/kickoff.git	// Add a different remote repository
+	git remote rename pb paul					// Rename a local repository
+	git remote remove paul						// Remove a local repository
+	git remote show							// Present local repository name
+	git remote show	name						// Present local repository information
+	git fetch name							// Get files from repository name
+	git pull							// Get files from remote branch
 
-	git add .								// Stage all files
-	git add --all 								// Stage all files
+	git add .							// Stage all files
+	git add --all 							// Stage all files
 	git add -u
 	git add -A
-	git reset HEAD file							// Unstage file
+	git reset HEAD file						// Unstage file
 	
-	git status								// Files status
+	git status							// Files status
 	git status -s
 
-	git diff								// Files changes and not staged
-	git diff --staged							// Files changed and ready for next committment
-	git diff --cached							// Files changed and staged so far
+	git diff							// Files changes and not staged
+	git diff --staged						// Files changed and ready for next committment
+	git diff --cached						// Files changed and staged so far
 
-	git commit								// Commit all staged files and open text editor for message
-	git commit -m "message"							// Commit all staged files and add message
-	git commit --all -m "message"						// Commit all files in Project ignoring stage area
-	git commit --amend							// Commit amendment
+	git commit							// Commit all staged files and open text editor for message
+	git commit -m "message"						// Commit all staged files and add message
+	git commit --all -m "message"					// Commit all files in Project ignoring stage area
+	git commit --amend						// Commit amendment
 
-	git rm file								// Remove a file from GIT
-	git rm --cached file							// Remove file from stage but keep in the Project
-	git mv file_from file_to						// Move files or rename them
-	git checkout -- file							// Restore previous version of file
+	git rm file							// Remove a file from GIT
+	git rm --cached file						// Remove file from stage but keep in the Project
+	git mv file_from file_to					// Move files or rename them
+	git checkout -- file						// Restore previous version of file
 
-	git log									// Commit history 
-	git log	-p								// Commit history and differences betwen commits
-	git log	--stat								// Commit history and statistics
-	git log	--pretty=oneline						// Commit history presented on a predefined format
+	git log								// Commit history 
+	git log	-p							// Commit history and differences betwen commits
+	git log	--stat							// Commit history and statistics
+	git log	--pretty=oneline					// Commit history presented on a predefined format
 	git log --oneline --decorate --graph --all
 
-	git push								// Update all commited files to the Project Origin
-	git push --all								// Update all files to the Project Origin
+	git push							// Update all commited files to the Project Origin
+	git push --all							// Update all files to the Project Origin
 
-	git branch name								// Create a new brench called name
-	git checkout -b branchname						// Create and checkout to a new brench
-	git checkout master							// Change to brench called master
-<<<<<<< HEAD
-	git merge master							// Merge changes made on brench master
-	git branch -d name							// Delete brench name
-=======
->>>>>>> b8e80b07daf47f48230b0be5670c3821f43a5659
-
+	git branch name							// Create a new brench called name
+	git checkout -b branchname					// Create and checkout to a new brench
+	git checkout master						// Change to brench called master
+	git merge master						// Merge changes made on brench master
+	git branch -d name						// Delete brench name
+	git mergetool							// Fires up an visual merge tool and walks through the conflicts
 ## Commit/Edit/Stage files
 
-	git pull --all       							// work <-- Repository
-	git add --all     							// work --> Staged
-	git commit --all -m "message"  						// Unmodified + Edit. Staged --> Local Repository
-	git push --all  							// work --> Remote Repository
+	git pull --all       						// work <-- Repository
+	git add --all     						// work --> Staged
+	git commit --all -m "message"  					// Unmodified + Edit. Staged --> Local Repository
+	git push --all  						// work --> Remote Repository
