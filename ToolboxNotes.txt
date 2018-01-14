@@ -66,8 +66,6 @@
 	git rm --cached file							// Remove file from stage but keep in the Project
 	git mv file_from file_to						// Move files or rename them
 	git checkout -- file							// Restore previous version of file
-	git checkout -b branchname
-	git checkout master
 
 	git log									// Commit history 
 	git log	-p								// Commit history and differences betwen commits
@@ -77,7 +75,9 @@
 	git push								// Update all commited files to the Project Origin
 	git push --all								// Update all files to the Project Origin
 
-	git branch
+	git branch name								// Create a new brench called name
+	git checkout -b branchname						// Create and checkout to a new brench
+	git checkout master							// Change to brench called master
 
 
 ## Commit/Edit/Stage files
