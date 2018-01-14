@@ -71,14 +71,20 @@
 	git log	-p								// Commit history and differences betwen commits
 	git log	--stat								// Commit history and statistics
 	git log	--pretty=oneline						// Commit history presented on a predefined format
+	git log --oneline --decorate --graph --all
 
 	git push								// Update all commited files to the Project Origin
 	git push --all								// Update all files to the Project Origin
 
+<<<<<<< HEAD
 	git branch name								// Create a new brench called name
 	git checkout -b branchname						// Create and checkout to a new brench
 	git checkout master							// Change to brench called master
 
+=======
+	git branch name								// Create a new brench
+	git checkout testing							// Change from brenches
+>>>>>>> master
 
 ## Commit/Edit/Stage files
 
