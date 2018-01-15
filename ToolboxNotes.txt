@@ -76,12 +76,14 @@
 	git push							// Update all commited files to the Project Origin
 	git push --all							// Update all files to the Project Origin
 
+
 	git branch name							// Create a new brench called name
 	git checkout -b branchname					// Create and checkout to a new brench
 	git checkout master						// Change to brench called master
 	git merge master						// Merge changes made on brench master
 	git branch -d name						// Delete brench name
 	git mergetool							// Fires up an visual merge tool and walks through the conflicts
+
 ## Commit/Edit/Stage files
 
 	git pull --all       						// work <-- Repository
